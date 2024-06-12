@@ -24,7 +24,7 @@ void push(struct Stack* stack, int value) {
 
 // pop
 int pop(struct Stack* stack) {
-    if (isEmpty(struct Stack* stack)) {
+    if (isEmpty(stack)) {
         printf("Stack underflow: la pila esta vacia\n");
         return -1; // retorno cualquiera para indicar error
     }
