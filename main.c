@@ -1,23 +1,17 @@
 #include "stack.h"
 #include <stdlib.h>
 #include <stdio.h>
-
-
+#include <stdbool.h>
 
 
 int main() {
+    struct Stack stack;
 
+//inicia la pila
+    initialize(&stack);
+    
 
     
-    //Lista original
-
-    //Push
-
-    //Pop
-
-    //Top
-
-    //isEmpty
-
-
+    return 0;
 }
+
