@@ -1,6 +1,6 @@
 #include <stdbool.h>
-#ifndef stack
-#define stack
+#ifndef STACK_H
+#define STACK_H
 //interfaz para la funcionalidad 
 
 
